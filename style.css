@@ -1,0 +1,66 @@
+body {
+    background-image: url(./tropical-2203737_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Playball',
+    cursive;
+    font-weight: bolder;
+}
+.heading-container {
+    padding: 12% 15%;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Playball',
+        cursive;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 5px 5px black;
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+ul li {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 2;
+    margin-top: 15%;
+    font-weight: bold;
+    color: white;
+}
+
+@media ( max-width: 1081px ) {
+    body{
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .heading {
+        font-size: 2.6rem;
+        padding-bottom: 5%;
+    }
+
+    .sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        margin-bottom: 5%;
+    }
+}
